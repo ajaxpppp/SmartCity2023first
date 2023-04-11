@@ -1,0 +1,828 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/bootpage/bootpage",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		},
+		{
+			"path": "pages/five/login/login",
+			"style": {
+				"navigationBarTitleText": "登录页面",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/two/two",
+			"style": {
+				"navigationBarTitleText": "全部服务页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/three/three",
+			"style": {
+				"navigationBarTitleText": "智慧党建页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/four/four",
+			"style": {
+				"navigationBarTitleText": "律师咨询页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/five/five",
+			"style": {
+				"navigationBarTitleText": "个人中心页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/newDetail/newDetail",
+			"style": {
+				"navigationBarTitleText": "新闻详情页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/five/mymessage/mymessage",
+			"style": {
+				"navigationBarTitleText": "个人信息页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/five/passwd/passwd",
+			"style": {
+				"navigationBarTitleText": "修改密码页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/five/orderList/orderList",
+			"style": {
+				"navigationBarTitleText": "订单列表页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/five/inputList/inputList",
+			"style": {
+				"navigationBarTitleText": "意见反馈页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/serachList/serachList",
+			"style": {
+				"navigationBarTitleText": "新闻搜索列表页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/park/park",
+			"style": {
+				"navigationBarTitleText": "停车场页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/five/registerPage/registerPage",
+			"style": {
+				"navigationBarTitleText": "注册页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/park/parkDeatil/parkDeatil",
+			"style": {
+				"navigationBarTitleText": "停车场详情页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/park/parkList/parkList",
+			"style": {
+				"navigationBarTitleText": "停车记录页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/VRlibrary/VRlibrary",
+			"style": {
+				"navigationBarTitleText": "数字图书馆主页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/VRlibrary/bookDetail/bookDetail",
+			"style": {
+				"navigationBarTitleText": "图书馆详情页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/VRlibrary/commitDetail/commitDetail",
+			"style": {
+				"navigationBarTitleText": "评论页面",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/YouthPostStation/YouthPostStation",
+			"style": {
+				"navigationBarTitleText": "青年驿站页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/YouthPostStation/youthDetail/youthDetail",
+			"style": {
+				"navigationBarTitleText": "驿站详情页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/YouthPostStation/policy/policy",
+			"style": {
+				"navigationBarTitleText": "人才政策页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/YouthPostStation/policyDeatil/policyDeatil",
+			"style": {
+				"navigationBarTitleText": "内容页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/smartBus/smartBus",
+			"style": {
+				"navigationBarTitleText": "智慧巴士页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Active/Active",
+			"style": {
+				"navigationBarTitleText": "活动页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/loveDonation/loveDonation",
+			"style": {
+				"navigationBarTitleText": "爱心捐赠页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/hotLine/hotLine",
+			"style": {
+				"navigationBarTitleText": "政府服务热线页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/DataAnalyse/DataAnalyse",
+			"style": {
+				"navigationBarTitleText": "数据分析页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Active/ActiveDetail/ActiveDetail",
+			"style": {
+				"navigationBarTitleText": "活动详情页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/citySubway/citySubway",
+			"style": {
+				"navigationBarTitleText": "地铁页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/lifePay/lifePay",
+			"style": {
+				"navigationBarTitleText": "生活缴费页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/watchMovie/watchMovie",
+			"style": {
+				"navigationBarTitleText": "看电影页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/petHospital/petHospital",
+			"style": {
+				"navigationBarTitleText": "宠物医院页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/education/education",
+			"style": {
+				"navigationBarTitleText": "教育页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/refuseClassification/refuseClassification",
+			"style": {
+				"navigationBarTitleText": "垃圾分类页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/OutpatientAppointment/OutpatientAppointment",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/TakeOutorder/TakeOutorder",
+			"style": {
+				"navigationBarTitleText": "外卖点餐首页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tohuntahouse/tohuntahouse",
+			"style": {
+				"navigationBarTitleText": "找房子页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/LogisticsQuery/LogisticsQuery",
+			"style": {
+				"navigationBarTitleText": "物流查询主页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Intelligenttrafficmanagement/Intelligenttrafficmanagement",
+			"style": {
+				"navigationBarTitleText": "智慧交管页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/job-hunting/job-hunting",
+			"style": {
+				"navigationBarTitleText": "找工作页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/loveDonation/loveDeonationList/loveDeonationList",
+			"style": {
+				"navigationBarTitleText": "公益列表页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/loveDonation/loveDonationDetail/loveDonationDetail",
+			"style": {
+				"navigationBarTitleText": "公益详情页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/hotLine/hotLinelist/hotLinelist",
+			"style": {
+				"navigationBarTitleText": "述求列表页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/hotLine/hotLineDetail/hotLineDetail",
+			"style": {
+				"navigationBarTitleText": "述求详情页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/hotLine/addhotLine/addhotLine",
+			"style": {
+				"navigationBarTitleText": "新建述求页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tohuntahouse/tohunthouseDeatil/tohunthouseDeatil",
+			"style": {
+				"navigationBarTitleText": "房源详情页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tohuntahouse/tohunthouseserach/tohunthouseserach",
+			"style": {
+				"navigationBarTitleText": "房源列表页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/OutpatientAppointment/OutpatientAppointmentDeatil/OutpatientAppointmentDeatil",
+			"style": {
+				"navigationBarTitleText": "医院简介页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/OutpatientAppointment/haveanappointmentwithadoctor/haveanappointmentwithadoctor",
+			"style": {
+				"navigationBarTitleText": "就诊人卡片页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/OutpatientAppointment/addoutpatientAppointment/addoutpatientAppointment",
+			"style": {
+				"navigationBarTitleText": "创建就诊人卡片页面",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/OutpatientAppointment/administrativeortechnicaloffices/administrativeortechnicaloffices",
+			"style": {
+				"navigationBarTitleText": "挂号页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/OutpatientAppointment/RegistrationInformation/RegistrationInformation",
+			"style": {
+				"navigationBarTitleText": "挂号信息页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/OutpatientAppointment/serachHospital/serachHospital",
+			"style": {
+				"navigationBarTitleText": "医院列表页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/refuseClassification/refuseClassificationDeatil/refuseClassificationDeatil",
+			"style": {
+				"navigationBarTitleText": "详情页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/refuseClassification/refusesearch/refusesearch",
+			"style": {
+				"navigationBarTitleText": "搜索页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/refuseClassification/refuseclassify/refuseclassify",
+			"style": {
+				"navigationBarTitleText": "分类页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/refuseClassification/refuseClassifyType/refuseClassifyType",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/refuseClassification/incommonuse/incommonuse",
+			"style": {
+				"navigationBarTitleText": "详情页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/refuseClassification/searchclassify/searchclassify",
+			"style": {
+				"navigationBarTitleText": "分类搜索页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/four/LegalexpertiseIcon/LegalexpertiseIcon",
+			"style": {
+				"navigationBarTitleText": "法律专长列表页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/four/LegalexpertiseList/LegalexpertiseList",
+			"style": {
+				"navigationBarTitleText": "律师列表页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/four/LegalexpertiseDetail/LegalexpertiseDetail",
+			"style": {
+				"navigationBarTitleText": "律师详情页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/four/LegalexpertiseLawyerList/LegalexpertiseLawyerList",
+			"style": {
+				"navigationBarTitleText": "律师列表页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/four/LegalexpertiseGuidance/LegalexpertiseGuidance",
+			"style": {
+				"navigationBarTitleText": "咨询列表页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/four/LegalexpertiseGuidanceDeatil/LegalexpertiseGuidanceDeatil",
+			"style": {
+				"navigationBarTitleText": "咨询详情页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/four/LegalexpertiseGuidanceCommit/LegalexpertiseGuidanceCommit",
+			"style": {
+				"navigationBarTitleText": "服务评价页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/four/LegalexpertiseFreeGuidance/LegalexpertiseFreeGuidance",
+			"style": {
+				"navigationBarTitleText": "咨询页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/three/Partybuildingtrends/Partybuildingtrends",
+			"style": {
+				"navigationBarTitleText": "党建动态页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/three/Partymemberstudy/Partymemberstudy",
+			"style": {
+				"navigationBarTitleText": "党员学习页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/three/Organizeactivities/Organizeactivities",
+			"style": {
+				"navigationBarTitleText": "组织活动页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/three/Offeradviceandsuggestions/Offeradviceandsuggestions",
+			"style": {
+				"navigationBarTitleText": "建言献策页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/three/Randomclap/Randomclap",
+			"style": {
+				"navigationBarTitleText": "随手拍页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/smartBus/smartBusDetail/smartBusDetail",
+			"style": {
+				"navigationBarTitleText": "定制班车页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/five/orderList/orderpay/orderpay",
+			"style": {
+				"navigationBarTitleText": "订单支付页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/watchMovie/watchMovieDeatil/watchMovieDeatil",
+			"style": {
+				"navigationBarTitleText": "信息详情页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Volunteerservice/Volunteerservice",
+			"style": {
+				"navigationBarTitleText": "志愿服务主页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Volunteerservice/VolunteerActivities/VolunteerActivities",
+			"style": {
+				"navigationBarTitleText": "志愿活动页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Volunteerservice/MyActivities/MyActivities",
+			"style": {
+				"navigationBarTitleText": "我的活动页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Volunteerservice/VolunteerActivitiesDeatil/VolunteerActivitiesDeatil",
+			"style": {
+				"navigationBarTitleText": "我的活动详情页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/petHospital/FindAdoctor/FindAdoctor",
+			"style": {
+				"navigationBarTitleText": "找医生页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/petHospital/CaseDetailsPage/CaseDetailsPage",
+			"style": {
+				"navigationBarTitleText": "案例详情页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/petHospital/Consultationpage/Consultationpage",
+			"style": {
+				"navigationBarTitleText": "问诊页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/petHospital/ConsultationDetailsPage/ConsultationDetailsPage",
+			"style": {
+				"navigationBarTitleText": "问诊详情页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/citySubway/citySubwayDeatil/citySubwayDeatil",
+			"style": {
+				"navigationBarTitleText": "地铁详情页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/citySubway/citySubwayImgage/citySubwayImgage",
+			"style": {
+				"navigationBarTitleText": "总览图页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/LogisticsQuery/LogisticsQueryDeatil/LogisticsQueryDeatil",
+			"style": {
+				"navigationBarTitleText": "物流公司详情页面",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/LogisticsQuery/LogisticsWaybillDeatil/LogisticsWaybillDeatil",
+			"style": {
+				"navigationBarTitleText": "物流运单详情页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/LogisticsQuery/Logisticscomplaints/Logisticscomplaints",
+			"style": {
+				"navigationBarTitleText": "物流投诉列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/LogisticsQuery/AddOrder/AddOrder",
+			"style": {
+				"navigationBarTitleText": "投诉新增页面",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/job-hunting/job-huntingDetail/job-huntingDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "招聘详情页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/job-hunting/Deliveryrecord/Deliveryrecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "投递记录页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/job-hunting/curriculumvitae/curriculumvitae",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人简历页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/lifePay/lifePayPayment/lifePayPayment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "交费页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/lifePay/lifePayList/lifePayList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "交费记录页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Intelligenttrafficmanagement/carmssage/carmssage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "车辆管理页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Intelligenttrafficmanagement/carVehicle/carVehicle",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "立即预约页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Intelligenttrafficmanagement/Myappointment/Myappointment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的预约页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/TakeOutorder/TakeOutorderDetail/TakeOutorderDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/TakeOutorder/MenuDetailsPage/MenuDetailsPage",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "菜品详情页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/TakeOutorder/Deliveryorder/Deliveryorder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/TakeOutorder/Mytakeout/Mytakeout",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/TakeOutorder/TakeOutorderList/TakeOutorderList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商家列表页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/TakeOutorder/TakeSearch/TakeSearch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "外卖列表页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/three/Deatil/Deatil",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/three/searchList/searchList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "党建新闻列表页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "首页",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [{
+			"text": "首页",
+			"pagePath": "pages/index/index",
+			"iconPath": "static/icon/1.png",
+			"selectedIconPath": "static/icon/2.png"
+		}, {
+			"text": "全部服务",
+			"pagePath": "pages/two/two",
+			"iconPath": "static/icon/3.png",
+			"selectedIconPath": "static/icon/4.png"
+		}, {
+			"text": "智慧党建",
+			"pagePath": "pages/three/three",
+			"iconPath": "static/icon/5.png",
+			"selectedIconPath": "static/icon/6.png"
+		}, {
+			"text": "律师咨询",
+			"pagePath": "pages/four/four",
+			"iconPath": "static/icon/7.png",
+			"selectedIconPath": "static/icon/8.png"
+		}, {
+			"text": "个人中心",
+			"pagePath": "pages/five/five",
+			"iconPath": "static/icon/9.png",
+			"selectedIconPath": "static/icon/10.png"
+		}]
+	}
+}
