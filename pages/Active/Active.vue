@@ -7,7 +7,7 @@
 				</navigator>
 			</swiper-item>
 		</swiper>
-
+//你好
 		<uni-section title="活动列表" sub-title="" type="line">
 			<uni-row>
 				<uni-col :span="24/text.length" v-for="(item,index) in text" :key="index">
